@@ -10,10 +10,26 @@ body {
   padding: 0 5%;
 }
 
+/* ヘッダー */
+h1 {
+  margin: 0;
+}
 
+.page-header {
+  height: 100vh;
+  background-image: url("../images/mainvisual.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+  margin-bottom: 80px;
+}
 
-
-
+.page-header__logo {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
 
 
 
