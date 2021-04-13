@@ -2,12 +2,24 @@
 
 body {
   margin: 0;
-  font-family: Arial、Hiragino Sans、Hiragino Kaku Gothic ProN、Meiryo、sans-serif;
+  font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  color: #2a2a2a;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .content {
   max-width: 1200px;
   padding: 0 5%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /* ヘッダー */
@@ -31,12 +43,56 @@ h1 {
   right: 30px;
 }
 
+/* メイン */
+#magazine {
+  margin-bottom: 80px;
+}
 
+.magazine__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 20px;
+}
 
+.magazine__text {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
 
+.magazine-content {
+  display: flex;
+  justify-content: space-between;
+}
 
+.magazine-content a {
+  width: 49%;
+  position: relative;
+}
 
+.magazine-inner {
+  width: 290px;
+  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
 
+.magazine-inner h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 2px;
+}
 
-
+.magazine-inner p {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 0;
+}
 
