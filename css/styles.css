@@ -44,6 +44,7 @@ h1 {
 }
 
 /* メイン */
+/* マガジン */
 #magazine {
   margin-bottom: 80px;
 }
@@ -95,4 +96,47 @@ h1 {
   font-weight: bold;
   margin: 0;
 }
+
+/* ファッション */
+#fashion {
+  box-sizing: border-box;
+  height: 520px;
+  background-image: url("../images/fashion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+  padding: 60px 0;
+  margin-bottom: 80px;
+}
+
+.fashion__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.fashion__text {
+  font-size: 0.875rem;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.fashion a {
+  display: inline-block;
+  padding: 14px 36px;
+  font-size: 0.75rem;
+  border: 1px solid #333;
+}
+
+
+
+
+
+
+
+
+
 
