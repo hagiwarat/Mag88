@@ -222,7 +222,9 @@ h1 {
   padding: 20px 0;
 }
 
+/* レスポンシブ */
 @media screen and (max-width: 896px) {
+  /* マガジン */
   .magazine-content {
     flex-direction: column;
   }
@@ -235,6 +237,7 @@ h1 {
     margin-bottom: 30px;
   }
 
+  /* カタログ、アンティーク */
   .inner {
     flex-direction: column;
   }
@@ -255,6 +258,7 @@ h1 {
     flex-direction: column-reverse;
   }
 
+  /* フッター */
   #footer-style {
     flex-direction: column;
     height: auto;
