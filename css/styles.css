@@ -181,3 +181,47 @@ h1 {
   margin-top: 30px;
 }
 
+/* フッター */
+.page-footer {
+  background-color: #333;
+  text-align: left;
+}
+#footer-style {
+  height: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-style div {
+  width: 33%;
+  margin-bottom: 0;
+}
+
+.footer-logo img {
+  width: 120px;
+}
+
+.footer h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2rem;
+  color: #fff;
+}
+
+.footer p {
+  font-size: 0.75rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  color: #fff;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+
+
+
