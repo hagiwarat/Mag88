@@ -222,6 +222,53 @@ h1 {
   padding: 20px 0;
 }
 
+@media screen and (max-width: 896px) {
+  .magazine-content {
+    flex-direction: column;
+  }
 
+  .magazine-content a {
+    width: 100%;
+  }
 
+  .magazine-content img:first-child {
+    margin-bottom: 30px;
+  }
 
+  .inner {
+    flex-direction: column;
+  }
+
+  .inner img {
+    width: 100%;
+  }
+
+  .inner section {
+    width: 100%;
+  }
+
+  .inner section p {
+    text-align: left;
+  }
+
+  .style-inner:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  #footer-style {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #footer-style div {
+    width: 100%;
+  }
+
+  .footer-logo {
+    text-align: center;
+  }
+
+  .footer {
+    padding: 30px 5%;
+  }
+}
